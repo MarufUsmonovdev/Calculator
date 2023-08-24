@@ -10,3 +10,4 @@ System.Console.WriteLine($"1st number is les then 2dn number: {firstnumber < sec
 System.Console.WriteLine($"1st number is the same with 2dn number: {firstnumber == secondnumber}");
 System.Console.WriteLine($"1st number is greater or same then 2dn number: {firstnumber >= secondnumber}");
 System.Console.WriteLine($"1st number is les or same 2dn number: {firstnumber <= secondnumber}");
+System.Console.WriteLine($"1st number is not equel 2dn number: {firstnumber != secondnumber}");
