@@ -1,12 +1,12 @@
 ﻿using System;
 
-int a = Convert.ToInt32(Console.ReadLine());
-int b = Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine("Enter firstnumber: ");
+int firstnumber = Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine("Enter secondnumber: ");
+int secondnumber = Convert.ToInt32(Console.ReadLine());
 
-System.Console.WriteLine($"Adding   {a + b}");
-System.Console.WriteLine($"Sub      {a - b}");
-System.Console.WriteLine($"Div      {a / b}");
-System.Console.WriteLine($"Multiply {a * b}");
-
-
-System.Console.WriteLine($"Remainder{a % b}");
+System.Console.WriteLine($"1st number is greater then 2dn number: {firstnumber > secondnumber}");
+System.Console.WriteLine($"1st number is les then 2dn number: {firstnumber < secondnumber}");
+System.Console.WriteLine($"1st number is the same with 2dn number: {firstnumber == secondnumber}");
+System.Console.WriteLine($"1st number is greater or same then 2dn number: {firstnumber >= secondnumber}");
+System.Console.WriteLine($"1st number is les or same 2dn number: {firstnumber <= secondnumber}");
